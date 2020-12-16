@@ -1,18 +1,34 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
+title: "Join the team at Cockroach Labs"
+subtitle: Excellence is how we build a category-defining company.
+         
 image: /img/home-jumbotron.jpg
 blurb:
-    heading: Why Kaldi?
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
+    heading: Why Cockroach Labs?
+    text: "We commit to shipping products and serving customers with a singular focus on excellence. We take pride in breaking boundaries, constantly improving, and aiming to produce great (not just good) work in order to win the market. Excellence is how we build a category-defining company.
+ "
 intro:
-    heading: "What we offer"
-    text: "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone."
+    heading: "Benefits"
 products:
-    - image: img/illustrations-coffee.svg
-      text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
-    - image: /img/illustrations-coffee-gear.svg
-      text: "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop."
+    - title: Flexible Working
+      text: "You are free to arrange your work schedule to meet your individual circumstances."
+    - title: Wellbeing for All
+      text: "We partner with Spring Health and an Employee Assistance Program to provide free counseling and support mental health on our team."
+    - title: Flex Fridays
+      text: "Focus on what drives and motivates you outside of core work responsibilities. This is your day to self-manage and grow in whatever way you choose."
+    - title: Learning is Good
+      text: "We provide $2500 annually to support learning and development through workshops, conferences, and networking events."
+    - title: Having Fun Together
+      text: "We dedicate company time to bond over everything from trivia and karaoke to paint-alongs and fitness classes (even online!)"
+    - title: Flexible Time Off
+      text: "We care about productivity, not face time. Take time off when you need it."
+    - title: Health & Retirement
+      text: "100% health insurance coverage for you & your dependents; One Medical membership; Gym discounts; free Citibike membership; FSA; 401(k)."
+    - title: Paid Parental Leave (with baby bucks)
+      text: "We offer 12 weeks of paid parental leave to all new parents after 30 days with us, individualized transition time and re-entry support, plus $500 in baby bucks."
+    - title: Relocation Support
+      text: "Moving to NYC can be overwhelming. We help you and your family relocate to the city we call home."
+  
 values:
     heading: Our values
     text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
