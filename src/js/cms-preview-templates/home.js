@@ -35,6 +35,9 @@ export default class PostPreview extends React.Component {
               </span>)}
           </dl>
 
+          <hr />
+
+          <h2 className="f2 b lh-title mb2">{entry.getIn(["data", "reasons", "heading"])}</h2>
 
           <ul className="quotes">
             {(entry.getIn(["data", "quotes"]) || []).map((quotes, i) =>

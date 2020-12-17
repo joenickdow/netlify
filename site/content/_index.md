@@ -59,6 +59,8 @@ benefits:
     text: >
       Moving to NYC can be overwhelming. We help you and your family relocate to
       the city we call home.
+reasons:
+  heading: Reasons Our Employees Love Cockroach Labs
 quotes:
   - title: |
       CRL is The Best
