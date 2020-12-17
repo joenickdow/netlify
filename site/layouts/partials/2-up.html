@@ -5,7 +5,7 @@
 
     <dl class="accordion">
       {{ range .benefits }}
-      <span>
+      <span className="ph2-ns w-50-ns">
       <dt><a href="">{{.title}}</a></dt>
       <dd>{{.text}}</dd>
       </span>
@@ -23,8 +23,8 @@
 
 <script>
   (function($) {
-    var allPanels = $('.accordion > dd').hide();
-    $('.accordion >  dt > a').click(function() {
+    var allPanels = $('.accordion > span > dd').hide();
+    $('.accordion > span > dt > a').click(function() {
       allPanels.slideUp();
       $(this).parent().next().slideDown();
       return false;
