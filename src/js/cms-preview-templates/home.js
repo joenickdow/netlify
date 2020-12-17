@@ -29,10 +29,10 @@ export default class PostPreview extends React.Component {
             <p className="mb4 mw6">{entry.getIn(["data", "intro", "text"])}</p>
 
             <dl className="accordion">
-              {(entry.getIn(["data", "benefits"]) || []).map((benefits, i) => <span className="ph2-ns w-50-ns" key={i}>
-                 <dd>{benefits.get("title")}</dd>
-                <dd>{benefits.get("text")}</dd>
-              </span>)}
+              {(entry.getIn(["data", "benefits"]) || []).map((benefits, i) =>
+                 <dd key={i}>{benefits.get("title")}</dd>
+                <dt>{benefits.get("text")}</dt>
+             )}
             </dl>
 
 
