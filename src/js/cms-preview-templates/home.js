@@ -36,6 +36,13 @@ export default class PostPreview extends React.Component {
           </dl>
 
 
+          <ul className="quotes">
+            {(entry.getIn(["data", "quotes"]) || []).map((quotes, i) =>
+                 <li key={i}>{quotes.get("title")}</li>
+              )}
+          </ul>
+
+
         </div>
       </div>
 

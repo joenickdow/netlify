@@ -5,10 +5,18 @@
 
     <dl class="accordion">
       {{ range .benefits }}
+      <span>
       <dt><a href="">{{.title}}</a></dt>
       <dd>{{.text}}</dd>
+      </span>
       {{ end }}
     </dl>
+
+    <ul class="quotes">
+      {{ range .quotes }}
+      <li>{{.title}}</li>
+      {{ end }}
+    </ul>
 
   </div>
 </div>
