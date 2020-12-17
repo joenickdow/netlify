@@ -9,7 +9,7 @@ blurb:
  "
 intro:
     heading: "Benefits"
-products:
+benefits:
     - title: Flexible Working
       text: "You are free to arrange your work schedule to meet your individual circumstances."
     - title: Wellbeing for All
