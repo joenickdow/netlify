@@ -63,6 +63,7 @@ quotes:
   - title: |
       CRL is The Best
   - title: Yes they are
+  - title: Quote 3
 values:
   heading: Thrive at Cockroach Labs
   text: >-
