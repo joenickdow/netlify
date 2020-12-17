@@ -59,13 +59,12 @@ benefits:
     text: >
       Moving to NYC can be overwhelming. We help you and your family relocate to
       the city we call home.
-reasons:
-  heading: Reasons Our Employees Love Cockroach Labs
 quotes:
   - title: |
       CRL is The Best
   - title: Yes they are
   - title: Quote 3
+  - title: test
 values:
   heading: Thrive at Cockroach Labs
   text: >-
@@ -74,4 +73,6 @@ values:
 
 
     Today, Cockroach Labs helps organizations of all sizes—from single-person startups to multinational enterprises—manage their data seamlessly.
+reasons:
+  heading: Reasons Our Employees Love Cockroach Labs
 ---
