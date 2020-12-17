@@ -27,7 +27,7 @@
 }
 .accordion dd {
     border-top: 0;
-    font-size: 12px;
+    font-size: 17px;
 }
 .accordion dd:last-of-type {
     border-top: 1px solid white;
