@@ -14,7 +14,7 @@ intro:
   heading: BENEFITS
   text: Working at CRL
 benefits:
-  - title: Flexible Working
+  - title: a
     text: >
       You are free to arrange your work schedule to meet your individual
       circumstances.
