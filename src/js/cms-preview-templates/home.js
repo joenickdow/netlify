@@ -10,56 +10,56 @@ export default class PostPreview extends React.Component {
 
     // Bit of a nasty hack to make relative paths work as expected as a background image here
     if (image && !image.fileObj) {
-        image = window.parent.location.protocol + "//" + window.parent.location.host + image;
+      image = window.parent.location.protocol + "//" + window.parent.location.host + image;
     }
 
     return <div>
-        <Jumbotron image={image} title={entry.getIn(["data", "title"])} subtitle={entry.getIn(["data", "subtitle"])}/>
+      <Jumbotron image={image} title={entry.getIn(["data", "title"])} subtitle={entry.getIn(["data", "subtitle"])}/>
 
-        <div className="bg-grey-1 pv4">
-          <div className="flex-l mhn1-l ph3 center mw7">
-            <h2 className="f2 b lh-title mb2 w-40-l">{entry.getIn(["data", "blurb", "heading"])}</h2>
-            <p className="w-60-l mb0">{entry.getIn(["data", "blurb", "text"])}</p>
-          </div>
+      <div className="bg-grey-1 pv4">
+        <div className="flex-l mhn1-l ph3 center mw7">
+          <h2 className="f2 b lh-title mb2 w-40-l">{entry.getIn(["data", "blurb", "heading"])}</h2>
+          <p className="w-60-l mb0">{entry.getIn(["data", "blurb", "text"])}</p>
         </div>
+      </div>
 
-        <div className="bg-off-white pv4">
-          <div className="ph3 mw7 center">
-            <h2 className="f2 b lh-title mb2">{entry.getIn(["data", "intro", "heading"])}</h2>
-            <p className="mb4 mw6">{entry.getIn(["data", "intro", "text"])}</p>
+      <div className="bg-off-white pv4">
+        <div className="ph3 mw7 center">
+          <h2 className="f2 b lh-title mb2">{entry.getIn(["data", "intro", "heading"])}</h2>
+          <p className="mb4 mw6">{entry.getIn(["data", "intro", "text"])}</p>
 
-            <dl className="accordion">
-              {(entry.getIn(["data", "benefits"]) || []).map((benefits, i) =>
-                 <dd key={i}>{benefits.get("title")}</dd>
+          <dl className="accordion">
+            {(entry.getIn(["data", "benefits"]) || []).map((benefits, i) => <span className="ph2-ns w-50-ns" key={i}>
+                 <dd>{benefits.get("title")}</dd>
                 <dt>{benefits.get("text")}</dt>
-             )}
-            </dl>
+              </span>)}
+          </dl>
 
 
-          </div>
         </div>
+      </div>
 
-        <div className="bg-grey-1 pv4">
-          <div className="ph3 mw7 center">
+      <div className="bg-grey-1 pv4">
+        <div className="ph3 mw7 center">
 
-            <div className="flex-l mhn2-l">
-              <div className="w-40-l ph2-l">
-                <h2 className="f2 b lh-title mb2">{entry.getIn(["data", "values", "heading"])}</h2>
+          <div className="flex-l mhn2-l">
+            <div className="w-40-l ph2-l">
+              <h2 className="f2 b lh-title mb2">{entry.getIn(["data", "values", "heading"])}</h2>
 
-                <p>{entry.getIn(["data", "values", "text"])}</p>
-              </div>
-
-              <div className="w-60-l ph2-l">
-                <img src="/img/home-about-section.jpg" alt="" className="mb3"/>
-              </div>
+              <p>{entry.getIn(["data", "values", "text"])}</p>
             </div>
 
-            <div className="tc">
-              <a href="{{.buttonLink}}" className="btn raise">Read more</a>
+            <div className="w-60-l ph2-l">
+              <img src="/img/home-about-section.jpg" alt="" className="mb3"/>
             </div>
-
           </div>
+
+          <div className="tc">
+            <a href="{{.buttonLink}}" className="btn raise">Read more</a>
+          </div>
+
         </div>
+      </div>
 
 
     </div>
