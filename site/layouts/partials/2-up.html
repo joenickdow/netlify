@@ -3,26 +3,30 @@
     <h2 class="f2 b lh-title mb2">{{.intro.heading}}</h2>
     <p class="mb4 mw6">{{.intro.text}}</p>
 
-    <dl class="accordion">
-      {{ range .benefits }}
-      <dt><a href="">{{.title}}</a></dt>
-      <dd>{{.text}}</dd>
+    <div class="flex-ns mhn2-ns mb3">
+      {{ range .products }}
+      <div class="ph2-ns w-50-ns">
+        <img src="{{.title}}" alt="" class="center db mb3" style="width: 240px">
+        <p>{{.text}}</p>
+      </div>
       {{ end }}
+    </div>
+
+    <dl class="accordion">
+
+      <dt><a href="">Panel 1</a></dt>
+      <dd>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</dd>
+
+      <dt><a href="">Panel 2</a></dt>
+      <dd>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</dd>
+
+      <dt><a href="">Panel 3</a></dt>
+      <dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.</dd>
+
     </dl>
 
+    <div class="tc">
+      <a href="/products" class="btn raise">See all products</a>
+    </div>
   </div>
 </div>
-
-<script>
-  (function($) {
-
-    var allPanels = $('.accordion > dd').hide();
-
-    $('.accordion > dt > a').click(function() {
-      allPanels.slideUp();
-      $(this).parent().next().slideDown();
-      return false;
-    });
-
-  })(jQuery);
-</script>
