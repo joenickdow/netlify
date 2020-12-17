@@ -62,6 +62,7 @@ benefits:
 quotes:
   - title: |
       CRL is The Best
+  - title: Yes they are
 values:
   heading: Thrive at Cockroach Labs
   text: >-
